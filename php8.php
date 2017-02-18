@@ -7,5 +7,5 @@ define("a",80);
 define("b",50);
 echo "a=".constant("a")."<br>";
 echo "b=".constant("b");
-
 ?>
+//error :Constant a already defined /  Constant b already defined 
