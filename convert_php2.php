@@ -18,9 +18,13 @@ echo "c=".strval($c)."<br>";
 echo "d=".strval($d)."<br>";
 
 echo "3) variable into boolean::"."<br>";
-echo "a=".var_dump((bool)$a);
-echo "b=".var_dump((bool)$b);
-echo "c=".var_dump((bool)$c);
-echo "d=".var_dump((bool)$d);
+echo "a is";
+echo var_dump((bool)$a);
+echo "b  is";
+echo var_dump((bool)$b);
+echo "c is";
+echo var_dump((bool)$c);
+echo "d is";
+echo var_dump((bool)$d);
 
 ?>
